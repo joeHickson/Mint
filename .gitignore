@@ -44,6 +44,8 @@ Temporary Items
 
 # Compiled Directores
 /vendor
+
+# composer files
 composer.lock
 
 .metadata
