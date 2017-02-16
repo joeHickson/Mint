@@ -1,0 +1,118 @@
+{
+  "currencyCode": "GBP",
+  "fullName": "Pounds Sterling",
+  "decimal": true,
+  "formatMask": "£%1$d.%2$02d",
+  "units": [
+    {
+      "name": "Pound",
+      "code": "GBP.PND",
+      "symbol": "£",
+      "formatMask": "£%1$d",
+      "absoluteValue": 10000,
+      "denominations": [
+        {
+          "quantity": 1,
+          "absoluteValue": 10000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 2,
+          "absoluteValue": 20000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 5,
+          "absoluteValue": 50000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": true
+        },
+        {
+          "quantity": 5,
+          "absoluteValue": 50000,
+          "coin": false,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 10,
+          "absoluteValue": 100000,
+          "coin": false,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 20,
+          "absoluteValue": 200000,
+          "coin": false,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 50,
+          "absoluteValue": 500000,
+          "coin": false,
+          "inCirculation": true,
+          "uncommon": false
+        }
+      ]
+    },
+    {
+      "name": "Pence",
+      "code": "GBP.PNC",
+      "symbol": "p",
+      "formatMask": "%1$dp",
+      "absoluteValue": 100,
+      "quantityToNextUnit": 100,
+      "denominations": [
+        {
+          "quantity": 1,
+          "absoluteValue": 100,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 2,
+          "absoluteValue": 200,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 5,
+          "absoluteValue": 500,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 10,
+          "absoluteValue": 1000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 20,
+          "absoluteValue": 2000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 50,
+          "absoluteValue": 5000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        }
+      ]
+    }
+  ]
+}

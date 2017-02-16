@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<currency>
+    <currencyID>LSD</currencyID>
+    <fullName>Pounds, Shilling and Pence</fullName>
+    <decimal>false</decimal>
+    <formatMask>£%1$d.%2$ds.%3$dd</formatMask>
+    <formats>
+    	<format locale='default'>
+    		<formatMask unitMask='111'>£%1$d.%2$ds.%3$dd</formatMask>
+    		<formatMask unitMask='000'>£%1$d.%2$ds.%3$dd</formatMask>
+    		<formatMask unitMask='011'>£%1$d.%2$ds</formatMask>
+    		<formatMask unitMask='110'>%2$ds/%3$dd</formatMask>
+    		<formatMask unitMask='101'>£%1$d.%2$ds.%3$dd</formatMask>
+    		<formatMask unitMask='001'>£%1$d</formatMask>
+    		<formatMask unitMask='010'>%2$ds</formatMask>
+    		<formatMask unitMask='100'>%3$dd</formatMask>
+    	</format>
+    </formats>
+    <units>
+        <unit>
+            <name>Pound</name>
+            <id>1</id>
+            <symbol>£</symbol>
+            <formatMask>£%1$d.%2$ds.%3$dd</formatMask>
+            <absoluteValue>10000</absoluteValue>
+        </unit>
+        <unit>
+            <name>Shilling</name>
+            <id>2</id>
+            <symbol>s</symbol>
+            <formatMask>%2$d/%3$d</formatMask>
+            <absoluteValue>500</absoluteValue>
+            <quantityToNextUnit>20</quantityToNextUnit>
+        </unit>
+        <unit>
+            <name>Pence</name>
+            <id>3</id>
+            <symbol>d</symbol>
+            <formatMask>%3$dd</formatMask>
+            <absoluteValue>41</absoluteValue>
+            <quantityToNextUnit>12</quantityToNextUnit>
+        </unit>
+    </units>
+    <denominations>
+        <denomination>
+            <id>1</id>
+            <unit>1</unit>
+            <quantity>1</quantity>
+            <absoluteValue>10000</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>2</id>
+            <unit>1</unit>
+            <quantity>2</quantity>
+            <absoluteValue>20000</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>3</id>
+            <unit>1</unit>
+            <quantity>5</quantity>
+            <absoluteValue>50000</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>4</id>
+            <unit>2</unit>
+            <quantity>1</quantity>
+            <absoluteValue>500</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>5</id>
+            <unit>2</unit>
+            <quantity>2</quantity>
+            <absoluteValue>1000</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>6</id>
+            <unit>2</unit>
+            <quantity>2.5</quantity>
+            <absoluteValue>1250</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>7</id>
+            <unit>2</unit>
+            <quantity>5</quantity>
+            <absoluteValue>2500</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>8</id>
+            <unit>3</unit>
+            <quantity>1</quantity>
+            <absoluteValue>41</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>9</id>
+            <unit>3</unit>
+            <quantity>3</quantity>
+            <absoluteValue>125</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>10</id>
+            <unit>3</unit>
+            <quantity>4</quantity>
+            <absoluteValue>166</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+        <denomination>
+            <id>11</id>
+            <unit>3</unit>
+            <quantity>6</quantity>
+            <absoluteValue>250</absoluteValue>
+            <coin>true</coin>
+            <inCirculation>true</inCirculation>
+            <uncommon>false</uncommon>
+        </denomination>
+    </denominations>
+</currency>

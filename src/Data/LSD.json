@@ -1,0 +1,111 @@
+{
+  "currencyCode": "LSD",
+  "fullName": "Pounds, Shilling and Pence",
+  "decimal": false,
+  "formatMask": "£%1$d.%2$ds.%3.$dd",
+  "units": [
+    {
+      "name": "Pound",
+      "symbol": "£",
+      "formatMask": "£%1$d",
+      "absoluteValue": 10000,
+      "denominations": [
+        {
+          "quantity": 1,
+          "absoluteValue": 10000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 2,
+          "absoluteValue": 20000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 5,
+          "absoluteValue": 50000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        }
+      ]
+    },
+    {
+      "name": "Shilling",
+      "symbol": "s",
+      "formatMask": "%1$d/%2$d",
+      "absoluteValue": 500,
+      "quantityToNextUnit": 20,
+      "denominations": [
+        {
+          "quantity": 1,
+          "absoluteValue": 500,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 2,
+          "absoluteValue": 1000,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 2.5,
+          "absoluteValue": 1250,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 5,
+          "absoluteValue": 2500,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        }
+      ]
+    },
+    {
+      "name": "Pence",
+      "symbol": "d",
+      "formatMask": "%1$dd",
+      "absoluteValue": 41,
+      "quantityToNextUnit": 12,
+      "denominations": [
+        {
+          "quantity": 1,
+          "absoluteValue": 41,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 3,
+          "absoluteValue": 125,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 4,
+          "absoluteValue": 166,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        },
+        {
+          "quantity": 6,
+          "absoluteValue": 250,
+          "coin": true,
+          "inCirculation": true,
+          "uncommon": false
+        }
+      ]
+    }
+  ]
+}

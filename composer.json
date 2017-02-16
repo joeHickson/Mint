@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4": {
+      "joeHickson\\Mint\\": "src/"
+    }
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.0",
+    "mockery/mockery": "^0.9",
+    "phpstan/phpstan": "^0.5",
+    "phpunit/phpunit": "^5.7"
+  },
+  "scripts": {
+    "run-sa": "vendor/bin/phpstan analyse --ansi --no-progress -c phpstan.neon -l 4 classes controllers lib",
+    "run-fixer": "vendor/bin/php-cs-fixer fix"
+  }
+}
